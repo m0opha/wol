@@ -8,7 +8,7 @@ def main():
     exMACs, file_paths = ArgHandler()
     
     for _path in file_paths:
-        macs.update(ReadFile(_path))
+        MACs.update(ReadFile(_path))
     
     Total_MACs.update(exMACs)
     Total_MACs.update(MACs)
